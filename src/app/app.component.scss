@@ -5,6 +5,7 @@ $salmon : #c798a0;
 $khaki : #cdbfb6;
 $light-khaki : #e3e5d8;
 $coffee : #363636;
+$light-blue : #99c9e0;
 
 
 // Gradientes
@@ -12,7 +13,8 @@ $gradient-dark-purple: linear-gradient(180deg, $dark-purple 0%, $dark-violet 100
 $gradient-dark-violet: linear-gradient(180deg, $dark-violet 0%, $salmon 100%);
 $gradient-salmon: linear-gradient(180deg, $salmon 0%, $khaki 100%);
 $gradient-khaki: linear-gradient(180deg, $khaki 0%, $light-khaki 100%);
-$gradient-coffee: linear-gradient(180deg, $light-khaki 0%, $coffee 100%);
+$gradient-light-blue: linear-gradient(180deg,$light-khaki 0%, $light-blue 100%);
+$gradient-coffee: linear-gradient(180deg, $light-blue 0%, $coffee 100%);
 
 
 // Generales 
@@ -45,6 +47,9 @@ html, body {
     background: $gradient-coffee;
 }
 
+.backgorund-gradien-light-blue {
+    background: $gradient-light-blue;
+}
 .center-element {
     display: flex;
     justify-content: center;
@@ -227,4 +232,9 @@ html, body {
   }
 
 
+
+  .container-corousel {
+
+    padding: 2% 25%;
+  }
 

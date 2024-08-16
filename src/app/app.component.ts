@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'portafolio-kendall';
+
+  public slides = [
+    { src: "https://image1.com" },
+    { src: "https://image2.com" },
+    { src: "https://image3.com" },
+    { src: "https://image4.com" }
+  ];
 }
