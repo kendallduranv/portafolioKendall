@@ -22,9 +22,14 @@ export class CarouselComponent {
 
 
   public slides = [
-    { src: "../assets/1.webp" },
-    { src: "../assets/2.webp" },
-    { src: "../assets/3.jpg" },
+    { src: "../assets/p1.jpeg" },
+    { src: "../assets/p2.png" },
+    { src: "../assets/p3.png" },
+    { src: "../assets/p9.png" },
+    { src: "../assets/p5.jpg" },
+    { src: "../assets/p6.jpeg" },
+    { src: "../assets/p7.jpeg" },
+    { src: "../assets/p8.png" },
 
 
   ];
