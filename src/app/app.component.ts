@@ -14,4 +14,23 @@ export class AppComponent {
     { src: "https://image3.com" },
     { src: "https://image4.com" }
   ];
+
+
+
+  // downloadFile() {
+  //   const link = document.createElement('a');
+  //   link.setAttribute('target', '_blank');
+  //   link.setAttribute('href', 'assets/CV_Kendall.pdf');
+  //   link.setAttribute('download', `CV_Kendall.pdf`);
+  //   document.body.appendChild(link);
+  //   link.click();
+  //   link.remove();
+  // }
+
+  downloadFile() {
+    const link = document.createElement('a');
+    link.href = './assets/CV_Kendall.pdf'; 
+    link.download = 'CV_Kendall.pdf'; 
+    link.click();
+  }
 }
